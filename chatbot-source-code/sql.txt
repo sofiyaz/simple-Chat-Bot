@@ -1,0 +1,7 @@
+CREATE DATABASE chatbot;
+CREATE TABLE db (
+    ID int NOT NULL AUTO_INCREMENT,
+    Keywords varchar(60),
+    Value varchar(60),
+    PRIMARY KEY(ID)
+);
